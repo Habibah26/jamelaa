@@ -11,16 +11,16 @@
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/bootstrap-datepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('css/jquery.fancybox.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{asset('fonts/flaticon/font/flaticon.css')}}">
+    <link rel="stylesheet" href="{{asset('css/aos.css')}}">
 
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
   </head>
 
@@ -90,61 +90,61 @@
     <div class="container-fluid portfolio-wrap bg-light pt-0 site-section">
       <div class="row align-items-end mb-4">
         <div class="col-md-3">
-          <a href="{{url('gam01')}}" class="portfolio-item"><img src="img/01.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam01')}}" class="portfolio-item"><img src="{{asset('img/01.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
         <div class="col-md-6">
-          <a href="{{url('gam02')}}" class="portfolio-item"><img src="img/02.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam02')}}" class="portfolio-item"><img src="{{asset('img/02.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
         <div class="col-md-3">
-          <a href="{{url('gam03')}}" class="portfolio-item"><img src="img/03.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam03')}}" class="portfolio-item"><img src="{{asset('img/03.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
       </div>
 
       <div class="row align-items-end mb-4">
         <div class="col-md-4">
-          <a href="{{url('gam04')}}" class="portfolio-item"><img src="img/04.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam04')}}" class="portfolio-item"><img src="{{asset('img/04.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
         <div class="col-md-4">
-          <a href="{{url('gam05')}}" class="portfolio-item"><img src="img/05.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam05')}}" class="portfolio-item"><img src="{{asset('img/05.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
         <div class="col-md-4">
-          <a href="{{url('gam06')}}" class="portfolio-item"><img src="img/06.JPG" alt="Image" class="img-fluid"></a>
-        </div>
-      </div>
-
-      <div class="row align-items-end mb-4">
-        <div class="col-md-4">
-          <a href="{{url('gam07')}}" class="portfolio-item"><img src="img/07.JPG" alt="Image" class="img-fluid"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="{{url('gam08')}}" class="portfolio-item"><img src="img/08.JPG" alt="Image" class="img-fluid"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="{{url('gam09')}}" class="portfolio-item"><img src="img/09.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam06')}}" class="portfolio-item"><img src="{{asset('img/06.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
       </div>
 
       <div class="row align-items-end mb-4">
         <div class="col-md-4">
-          <a href="{{url('gam10')}}" class="portfolio-item"><img src="img/10.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam07')}}" class="portfolio-item"><img src="{{asset('img/07.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
         <div class="col-md-4">
-          <a href="{{url('gam11')}}" class="portfolio-item"><img src="img/11.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam08')}}" class="portfolio-item"><img src="{{asset('img/08.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
         <div class="col-md-4">
-          <a href="{{url('gam12')}}" class="portfolio-item"><img src="img/12.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam09')}}" class="portfolio-item"><img src="{{asset('img/09.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
       </div>
 
       <div class="row align-items-end mb-4">
         <div class="col-md-4">
-          <a href="{{url('gam13')}}" class="portfolio-item"><img src="img/13.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam10')}}" class="portfolio-item"><img src="{{asset('img/10.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
         <div class="col-md-4">
-          <a href="{{url('gam14')}}" class="portfolio-item"><img src="img/14.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam11')}}" class="portfolio-item"><img src="{{asset('img/11.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
         <div class="col-md-4">
-          <a href="{{url('gam15')}}" class="portfolio-item"><img src="img/15.JPG" alt="Image" class="img-fluid"></a>
+          <a href="{{url('gam12')}}" class="portfolio-item"><img src="{{asset('img/12.JPG')}}" alt="Image" class="img-fluid"></a>
+        </div>
+      </div>
+
+      <div class="row align-items-end mb-4">
+        <div class="col-md-4">
+          <a href="{{url('gam13')}}" class="portfolio-item"><img src="{{asset('img/13.JPG')}}" alt="Image" class="img-fluid"></a>
+        </div>
+        <div class="col-md-4">
+          <a href="{{url('gam14')}}" class="portfolio-item"><img src="{{asset('img/14.JPG')}}" alt="Image" class="img-fluid"></a>
+        </div>
+        <div class="col-md-4">
+          <a href="{{url('gam15')}}" class="portfolio-item"><img src="{{asset('img/15.JPG')}}" alt="Image" class="img-fluid"></a>
         </div>
       </div>
     </div>
@@ -370,20 +370,20 @@
 
     </div>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/aos.js"></script>
+    <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('js/jquery-migrate-3.0.0.js')}}"></script>
+    <script src="{{asset('js/popper.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('js/jquery.sticky.js')}}"></script>
+    <script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
+    <script src="{{asset('js/jquery.animateNumber.min.js')}}"></script>
+    <script src="{{asset('js/jquery.fancybox.min.js')}}"></script>
+    <script src="{{asset('js/jquery.stellar.min.js')}}"></script>
+    <script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
+    <script src="{{asset('js/bootstrap-datepicker.min.js')}}"></script>
+    <script src="{{asset('js/isotope.pkgd.min.js')}}"></script>
+    <script src="{{asset('js/aos.js')}}"></script>
   
 
     <script src="js/typed.js"></script>
